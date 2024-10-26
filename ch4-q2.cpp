@@ -12,7 +12,7 @@ double getValue()
 //get a arithmetic sign from user and return by value to main
 char getSign() 
 {
-	std::cout << "Enter +, -, *. or /: ";
+	std::cout << "Enter +, -, *, or /: ";
 	char sign{};
 	std::cin >> sign;
 	return sign;
